@@ -8,6 +8,11 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+
+element {
+  --main-bg-color: #f0f3f0;
+}
+
 html,
 body {
 	height: 100%;
@@ -189,7 +194,7 @@ ol {
 }
 
 .circle-progress .progress-info {
-	background: #f2f7f8;
+	background: var(--main-bg-color);
 	width: 127px;
 	height: 127px;
 	border-radius: 150px;
@@ -367,7 +372,7 @@ ol {
 -----------------------*/
 .header-section {
 	padding: 50px 40px;
-	background: #f2f7f8;
+	background: var(--main-bg-color);
 }
 
 .site-logo h2 {
@@ -391,7 +396,7 @@ ol {
 	Hero section
 -----------------------*/
 .hero-section {
-	background: #f2f7f8;
+	background: var(--main-bg-color);
 }
 
 .hero-text {
@@ -802,7 +807,7 @@ ol {
 -----------------------*/
 .home-three-style .main-left-area,
 .home-four-style .main-left-area {
-	background: #f2f7f8;
+	background: var(--main-bg-color);
 	padding-top: 200px;
 	padding-right: 80px;
 	padding-left: 80px;
@@ -1219,7 +1224,7 @@ ol {
 @media only screen and (max-width: 1450px) {
 	.home-five-style .header-section {
 		position: relative;
-		background: #f2f7f8;
+		background: var(--main-bg-color);
 	}
 	.home-six-style .header-section {
 		position: relative;
@@ -1230,7 +1235,7 @@ ol {
 @media only screen and (max-width: 1366px) and (min-width: 1200px) {
 	.home-five-style .header-section {
 		position: relative;
-		background: #f2f7f8;
+		background: var(--main-bg-color);
 	}
 	.container-warp {
 		min-width: 80%;
@@ -1303,7 +1308,7 @@ ol {
 	}
 	.home-three-style .header-section {
 		position: relative;
-		background: #f2f7f8;
+		background: var(--main-bg-color);
 	}
 	.home-three-style .main-left-area {
 		padding-top: 0;
@@ -1379,7 +1384,7 @@ ol {
 	}
 	.home-three-style .header-section {
 		position: relative;
-		background: #f2f7f8;
+		background: var(--main-bg-color);
 	}
 	.home-three-style .main-left-area {
 		padding-top: 0;
